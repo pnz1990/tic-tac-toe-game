@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAZY 5x5 Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div id="game-screen" class="container animate__animated animate__bounceIn">
+        <h1 class="animate__animated animate__pulse animate__infinite">CRAZY 5x5 Tic Tac Toe</h1>
+        
+        <div id="player-info">
+            <div id="player-turn" class="animate__animated animate__fadeIn">Player's turn</div>
+            <div id="game-status"></div>
+        </div>
+        
+        <div class="player-indicators" id="player-indicators">
+            <div class="player-indicator j active" data-player="J"></div>
+            <div class="player-indicator r" data-player="R"></div>
+            <div class="player-indicator t" data-player="T"></div>
+        </div>
+        
+        <div class="game-board" id="board">
+            <div class="cell animate__animated animate__fadeIn" data-index="0"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="1"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="2"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="3"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="4"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="5"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="6"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="7"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="8"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="9"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="10"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="11"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="12"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="13"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="14"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="15"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="16"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="17"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="18"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="19"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="20"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="21"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="22"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="23"></div>
+            <div class="cell animate__animated animate__fadeIn" data-index="24"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="reset-btn" class="animate__animated animate__pulse animate__infinite">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
